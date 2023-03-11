@@ -47,6 +47,7 @@ public class leafAtSamelevel{
         // root.left.right = new Node(5);
         root.right.left= new Node (6);
         // root.right.left.left= new Node (62);
+        
         root.right.right= new Node(7);
         // islevel(root, 1);
         System.out.println(islevel(root, 1));
